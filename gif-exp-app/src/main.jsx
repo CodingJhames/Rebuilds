@@ -1,12 +1,19 @@
 
 import React from 'react'
 import ReactDOM from 'react-dom'
+import { createRoot } from "react-dom/client";
 import { GifExpertApp } from './GifExpertApp'
 import '../src/styles.css';
 
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+const container = document.getElementById('root');
+const root = createRoot( container );
+
+root.render(
   <React.StrictMode>
     <GifExpertApp />
   </React.StrictMode>
-)
+
+);
+
+

@@ -9,5 +9,5 @@ import { SimpleForm } from './useEffect/simpleForm'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <SimpleForm />
-  </React.StrictMode>,
+  </React.StrictMode>
 )

@@ -4,10 +4,6 @@ import { LoadingQuote,Quote } from "./";
 
 
 
-
-
-
-
 export const MultipleCustomHooks = () => {
 
   

@@ -10,7 +10,7 @@ export const FocusScreen = () => {
     const onCLick = () => {
         // document.querySelector('input').select();
         // console.log( inputRef );
-        inputRef.current.select();
+        inputRef.current.select();d
     };
   
     return (

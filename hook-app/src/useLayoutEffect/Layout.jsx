@@ -25,18 +25,12 @@ export const Layout = () => {
           <Quote author={ author } quote={ quote } />
         }
         
-          
-          
-
         <button 
         className="btn btn-primary" 
         onClick={ () => increment() }
         disabled = { isLoading }>
           Next Quote
         </button>        
-
-        
-
 
     </>
   )

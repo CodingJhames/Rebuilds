@@ -14,7 +14,6 @@ export const Quote = ( { quote, author } ) => {
     
   return (
     
-        
             <blockquote 
             className="blockquote text-end"
             style={ {display: 'flex'} }

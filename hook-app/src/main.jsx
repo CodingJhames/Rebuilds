@@ -10,10 +10,11 @@ import { FocusScreen } from './useRef/FocusScreen'
 import { Layout } from './useLayoutEffect/Layout'
 import { Memorize } from './memos/Memorize'
 import { MemoHook } from './memos/MemoHook'
+import { CallBackHook } from './memos/CallBackHook'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    < MemoHook  />
+    < CallBackHook  />
   </React.StrictMode>
 )

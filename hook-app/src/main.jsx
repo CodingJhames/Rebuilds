@@ -11,10 +11,12 @@ import { Layout } from './useLayoutEffect/Layout'
 import { Memorize } from './memos/Memorize'
 import { MemoHook } from './memos/MemoHook'
 import { CallBackHook } from './memos/CallBackHook'
+import { Padre } from './tarea-memo/Padre'
 
+import "./useReducer/intro-reducer";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    < CallBackHook  />
-  </React.StrictMode>
-)
+// ReactDOM.createRoot(document.getElementById('root')).render(
+  // <React.StrictMode>
+    // < Padre  />
+  // </React.StrictMode>
+// )

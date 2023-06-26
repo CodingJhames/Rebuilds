@@ -1,5 +1,5 @@
 
-import "../Menu.css"; 
+import "./Menu.css"; 
 
 export const Menu = ({ onClick }) => 
 

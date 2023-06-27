@@ -1,9 +1,16 @@
+import { useBoard } from "../hooks/useBoard";
+import { Board } from "./Board";
 import "./Tetris.css";
+
 
 export const Tetris = ({rows, columns, setGameover }) => {
     
-    return <p>Tetris</p>;
+    const [board, setBoard] = useBoard( {  rows, columns } );
+
+
+    return (
+        <Board board={ board } />
+    )
     
 }
-
 

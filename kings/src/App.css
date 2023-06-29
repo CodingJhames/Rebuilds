@@ -1,0 +1,54 @@
+
+
+.App {
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Reyes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  grid-auto-rows: minmax(100px, auto); 
+  background-color:beige ;
+}
+
+.Rey1 {
+  background-color: aquamarine;
+  border-radius: 20px;
+}
+
+.Rey2 {
+  background-color: aquamarine;
+  border-radius: 20px;
+}
+
+.Rey3 {
+  background-color: aquamarine;
+  border-radius: 20px;
+}
+
+.Rey4 {
+  background-color: aquamarine;
+  border-radius: 20px;
+}
+
+.Rey5 {
+  background-color: aquamarine;
+  border-radius: 20px;
+}
+
+.Rey6 {
+  background-color: aquamarine;
+  border-radius: 20px;
+}
+
+.Rey7 {
+  background-color: aquamarine;
+  border-radius: 20px;
+}
+
+.Rey8 {
+  background-color: aquamarine;
+  border-radius: 20px;
+}

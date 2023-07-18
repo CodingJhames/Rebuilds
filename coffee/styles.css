@@ -54,18 +54,19 @@
 .input {
     border-color: crimson;
     padding: 8px;
-    border-radius: 5px;
+    border-radius: 50px;
   }
 
 
 .label {
     background-color: white;
+    border-radius: 5px;
     color: crimson;
     font-size: 11px;
-    position: absolute;
-    left: 25px;
-    top: -7px;
-    padding: 20px;
+    position: relative;
+    left: 100px;
+    top: -17px;
+    padding: 1px;
   }
 
 .content {

@@ -1,0 +1,39 @@
+* {
+    padding: 20px;
+}
+
+
+.display{
+    color: white;
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    grid-area: display;
+    justify-content: flex-end;
+}
+
+.c {
+    grid-area: c;
+}
+
+.zero-btn{
+    grid-area: zero-btn;
+}
+
+.container {
+    display: grid;
+    border: solid black 5px;
+    background-color: aquamarine;
+    grid-auto-flow: row;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "display display display display"
+    "c       c       .       . "
+    ".       .       .       . "
+    ".       .       .       . "
+    ".       .       .       . "
+    "zero-btn zero-btn zero-btn    . "
+}
+
+
+
